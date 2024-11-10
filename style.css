@@ -1,0 +1,35 @@
+.body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url(asset/bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   overflow: hidden;
+   
+   
+}
+
+.elemen-absolute {
+   max-width: 50%;
+   max-height: 50%
+}
+
+.amin {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin-top: 10%;
+   margin-left: 32%;
+   height: 350px;
+}
+
+.jamet{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   bottom: 0px;
+   height: 170px;
+   
+}
